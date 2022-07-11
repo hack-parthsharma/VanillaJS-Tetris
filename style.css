@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+}
+
+#grid-container {
+  width: 200px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#grid-container div {
+  width: 16px;
+  height: 16px;
+  margin: 2px;
+  background-color: yellowgreen;
+  border-radius: 2px;
+}
+#grid-container div.bottom-cells {
+  background-color: transparent;
+}
+
+/* #grid-container div.tetramino, */
+/* #piece-preview div.tetramino {  */
+  /* background-color: darkslateblue; */
+/* } */
+
+#piece-preview {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 50px;
+}
+
+#piece-preview div {
+  width: 16px;
+  height: 16px;
+  /* background-color: yellowgreen; */
+  margin: 2px;
+  border-radius: 2px;
+}
